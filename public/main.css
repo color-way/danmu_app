@@ -1,0 +1,76 @@
+@charset 'utf-8';
+*{margin:0;padding: 0;}
+.content{
+	display: none;
+}
+.login{
+	margin:0 auto;
+	width: 50%;
+}
+.login label,input,button{
+	display: block;
+	float: left;
+	height: 80px;
+	font-size: 50px;
+}
+.movediv{
+	white-space:nowrap;
+}
+#videoWin{
+	height: 600px;
+	width:50%;
+	background-size:100%;
+	margin:0 auto;
+	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+}
+#block_right{
+	height: 600px;
+	width: 300px;
+	background:#aaa;
+	top:0;
+	border: 1px solid black;
+	position: absolute;
+	right:0;
+}
+#block_user{
+	border-top: 1px solid black;
+	position: relative;
+	top:22px;
+}
+#comment_input{
+	resize: none;
+	width: 200px;
+	display: block;
+	margin-top: 15px;
+	float: left;
+	margin-left: 15px;
+}
+#button_submit{
+	height: 50px;
+	width: 60px;
+	margin-top: 15px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	margin-left: 15px;
+}
+#button_submit:hover{
+	background: #e74;
+	font-weight: bold;
+}
+#comments{
+	display: block;
+	height:490px;
+	width:230px;
+	background: #fff;
+	border: 1px solid black;
+	position: relative;
+	margin:0 auto;
+	top:10px;
+	overflow: auto;
+}
+#comments li{
+	padding: 5px 10px;
+}
